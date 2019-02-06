@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12146, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: NewBrush
+  m_Name: PointBrush
   m_EditorClassIdentifier: 
   m_Mask: {fileID: 2800000, guid: b2d3b601169f7264795462d28f4b9485, type: 3}
   m_Falloff:
@@ -37,4 +37,4 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_RadiusScale: 1.4849247
+  m_RadiusScale: 1
