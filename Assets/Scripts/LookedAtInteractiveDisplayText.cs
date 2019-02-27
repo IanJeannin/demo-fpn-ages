@@ -1,29 +1,43 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
-/// Detects when the player presses the interact button while looking at an IInteractive, then calls that IInteractive's InteractWith() method
+/// This UI Text displays info about the current looked at IInteractive Element.
+/// The text should be hidden if player is not looking at an interactive.
 /// </summary>
-public class InteractWithLookedAt : MonoBehaviour
+public class LookedAtInteractiveDisplayText : MonoBehaviour
 {
     private IInteractive lookedAtInteractive;
-    void Update()
+    private Text displayText;
+
+    private void Awake()
     {
-        if(Input.GetButtonDown("Interact") && lookedAtInteractive!=null)
+        displayText = GetComponent<Text>();
+        UpdateDisplayText();
+    }
+
+    private void UpdateDisplayText()
+    {
+        if (lookedAtInteractive != null)
         {
-            Debug.Log("Player has pushed the interact button");
-            lookedAtInteractive.InteractWith();
+            displayText.text = lookedAtInteractive.DisplayText;
+        }
+        else
+        {
+            displayText.text = string.Empty;
         }
     }
 
     /// <summary>
     /// Event handler for DetectLookedAtInteractive.LookedAtInteractiveChanged
     /// </summary>
-    /// <param name="newLookedAtInteractive">Reference to the new IInteractive the player is looking at.</param>
+    /// <param name="newLookedAtInteractive">Reference to the new IInteractive the player is looking at</param>
     private void OnLookedAtInteractiveChanged(IInteractive newLookedAtInteractive)
     {
         lookedAtInteractive = newLookedAtInteractive;
+        UpdateDisplayText();
     }
 
     #region Event subscription / unsubscription
