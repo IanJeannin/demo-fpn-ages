@@ -985,6 +985,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   raycastOrigin: {fileID: 654168546}
   maxRange: 2.5
+--- !u!114 &840208423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840208417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf1ef107ebc6c941a61b000afb046c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectLookedAtInteractive: {fileID: 840208418}
 --- !u!43 &1117638313
 Mesh:
   m_ObjectHideFlags: 0
@@ -1334,8 +1347,9 @@ GameObject:
   - component: {fileID: 1425348634}
   - component: {fileID: 1425348633}
   - component: {fileID: 1425348632}
+  - component: {fileID: 1425348636}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: InteractiveObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1413,6 +1427,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1425348636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425348631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116de853ac753c24e97ff78ed3fbcce0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1890507597
 PrefabInstance:
   m_ObjectHideFlags: 0
