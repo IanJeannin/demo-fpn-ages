@@ -6,7 +6,7 @@ using UnityEngine;
 public class InteractiveObjects : MonoBehaviour, IInteractive
 {
     [SerializeField]
-    private string displayText = nameof(InteractiveObjects);
+    protected string displayText = nameof(InteractiveObjects);
 
    
     public string DisplayText => displayText;
@@ -17,7 +17,7 @@ public class InteractiveObjects : MonoBehaviour, IInteractive
         audioSource = GetComponent<AudioSource>();
     }
 
-    public void InteractWith()
+    public virtual void InteractWith()
     {
         try
         {
