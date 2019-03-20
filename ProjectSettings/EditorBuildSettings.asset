@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InteractiveObjectsTutorials.unity
     guid: c44a0d5692e5e724fb9c13ba3c192dfb
+  - enabled: 1
+    path: Assets/Scenes/Milestone3.unity
+    guid: 16ca8a1faa067494997f8489a1745710
   m_configObjects: {}

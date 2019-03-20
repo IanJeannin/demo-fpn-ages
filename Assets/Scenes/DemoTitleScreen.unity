@@ -843,7 +843,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398246589}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10, y: -1, z: -3}
+  m_LocalPosition: {x: -11.5, y: -1, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1096,7 +1096,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Rotate_Camera_Left
+          m_StringArgument: On_Play
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 60915539}
@@ -1543,7 +1543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cba9e2495b40afd4a96a992437758cf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSceneName: InteractiveObjectsTutorials
+  gameSceneName: Milestone3
   creditsMenuPanel: {fileID: 152605440}
   titleMenuPanel: {fileID: 60915539}
 --- !u!95 &1099659304
@@ -1577,7 +1577,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e601fa746b4a0d446b045c47ef7999ef, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.71
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2201,7 +2201,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh6362
+  m_Name: pb_Mesh94554
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
