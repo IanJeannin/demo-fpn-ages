@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Detects when the player presses the interact button while looking at an IInteractive, then calls that IInteractive's InteractWith() method
+/// Detects when the player presses the interact button while looking at an IInteractive, then calls that IInteractive's InteractWith() method.
 /// </summary>
 public class InteractWithLookedAt : MonoBehaviour
 {

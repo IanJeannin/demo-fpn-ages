@@ -12,12 +12,18 @@ public class LookedAtInteractiveDisplayText : MonoBehaviour
     private IInteractive lookedAtInteractive;
     private Text displayText;
 
+    /// <summary>
+    /// Initializes text at start of program.
+    /// </summary>
     private void Awake()
     {
         displayText = GetComponent<Text>();
         UpdateDisplayText();
     }
 
+    /// <summary>
+    /// If player is looking at an interactive object, show the display text, otherwise, hide it.
+    /// </summary>
     private void UpdateDisplayText()
     {
         if (lookedAtInteractive != null)

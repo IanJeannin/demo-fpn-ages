@@ -22,6 +22,9 @@ public class DetectLookedAtInteractive : MonoBehaviour
     /// </summary>
     public static event Action<IInteractive> LookedAtInteractiveChanged;
 
+    /// <summary>
+    /// Updates the object currently being looked at if the user looks at a different object.
+    /// </summary>
     public IInteractive LookedAtInteractive
     {
         get { return lookedAtInteractive; }

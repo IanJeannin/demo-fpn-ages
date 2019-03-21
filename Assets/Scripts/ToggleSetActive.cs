@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Determines whether the player can interact with an object more than once.
+/// </summary>
 public class ToggleSetActive : InteractiveObjects
 {
     [Tooltip ("The game object to Toggle")]

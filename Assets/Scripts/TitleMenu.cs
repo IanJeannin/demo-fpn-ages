@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Methods for interacting with buttons in main menu.
+/// </summary>
 public class TitleMenu : MonoBehaviour
 {
     [SerializeField]

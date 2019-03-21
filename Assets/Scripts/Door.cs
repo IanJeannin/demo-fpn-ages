@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Specialized interactive object that is animated when interacted with.
+/// </summary>
 [RequireComponent(typeof(Animator))]
 public class Door : InteractiveObjects
 {
