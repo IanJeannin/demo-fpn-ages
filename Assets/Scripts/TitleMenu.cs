@@ -30,5 +30,4 @@ public class TitleMenu : MonoBehaviour
         Debug.Log("Quit.");
         Application.Quit();
     }
-
 }

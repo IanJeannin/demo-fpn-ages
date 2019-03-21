@@ -28,6 +28,5 @@ public class ToggleSetActive : InteractiveObjects
                 displayText = string.Empty;
             }
         }
-        
     }
 }
