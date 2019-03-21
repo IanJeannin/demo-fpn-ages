@@ -8,7 +8,7 @@ using UnityEngine;
 public class InteractWithLookedAt : MonoBehaviour
 {
     private IInteractive lookedAtInteractive;
-    void Update()
+    private void Update()
     {
         if(Input.GetButtonDown("Interact") && lookedAtInteractive!=null)
         {

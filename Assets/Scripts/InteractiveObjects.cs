@@ -27,7 +27,6 @@ public class InteractiveObjects : MonoBehaviour, IInteractive
 
             throw new System.Exception("Interactive Object requires an audio source component with Audio Clip assigned -Is Missing-");
         }
-        
         Debug.Log($"Player interacted with:  { gameObject.name}");
     }
 }
