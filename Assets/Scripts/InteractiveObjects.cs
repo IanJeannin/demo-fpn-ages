@@ -8,7 +8,6 @@ public class InteractiveObjects : MonoBehaviour, IInteractive
     [SerializeField]
     protected string displayText = nameof(InteractiveObjects);
 
-   
     public string DisplayText => displayText;
     private AudioSource audioSource;
 

@@ -5,10 +5,8 @@ public class TitleMenu : MonoBehaviour
 {
     [SerializeField]
     private string gameSceneName;
-
     [SerializeField]
     private GameObject creditsMenuPanel;
-
     [SerializeField]
     private GameObject titleMenuPanel;
 

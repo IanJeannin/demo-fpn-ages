@@ -7,7 +7,6 @@ public class ToggleSetActive : InteractiveObjects
     [Tooltip ("The game object to Toggle")]
     [SerializeField]
     private GameObject objectToToggle;
-
     [Tooltip("Can the player interact with this more than once.")]
     [SerializeField]
     private bool isReusable = true;
