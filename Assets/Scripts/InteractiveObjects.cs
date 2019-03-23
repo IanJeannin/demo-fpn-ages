@@ -11,8 +11,8 @@ public class InteractiveObjects : MonoBehaviour, IInteractive
     [SerializeField]
     protected string displayText = nameof(InteractiveObjects);
 
-    public string DisplayText => displayText;
-    private AudioSource audioSource;
+    public virtual string DisplayText => displayText;
+    protected AudioSource audioSource;
 
     /// <summary>
     /// Updates audioSource to the AudioSource of the object being interacted with.
