@@ -8,6 +8,7 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class InteractiveObjects : MonoBehaviour, IInteractive
 {
+    [Tooltip("Text that will display in the UI when the player looks at the object in this world.")]
     [SerializeField]
     protected string displayText = nameof(InteractiveObjects);
 
