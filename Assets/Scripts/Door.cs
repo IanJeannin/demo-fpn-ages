@@ -98,4 +98,13 @@ public class Door : InteractiveObjects
             PlayerInventory.InventoryObjects.Remove(key);
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        audioSource.clip = openAudioClip;
+        animator.SetBool(shouldOpenAnimParameter, true);
+        displayText = string.Empty;
+        isOpen = true;
+        UnlockDoor();
+    }
 }
