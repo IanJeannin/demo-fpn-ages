@@ -14,6 +14,7 @@ public class SpeechUpdate : SpeechDisplayText
     /// </summary>
     [SerializeField]
     private string speechText;
+
     private bool hasBeenActivated = false;
 
     private void OnTriggerEnter(Collider other)
@@ -24,5 +25,4 @@ public class SpeechUpdate : SpeechDisplayText
             hasBeenActivated = true;
         }
     }
-    
 }

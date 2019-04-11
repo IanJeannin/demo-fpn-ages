@@ -105,6 +105,5 @@ public class Door : InteractiveObjects
         animator.SetBool(shouldOpenAnimParameter, true);
         displayText = string.Empty;
         isOpen = true;
-        UnlockDoor();
     }
 }
