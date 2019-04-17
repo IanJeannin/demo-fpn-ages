@@ -11347,7 +11347,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 8, y: -0.000019328672}
+  m_AnchoredPosition: {x: 8, y: -0.000018939932}
   m_SizeDelta: {x: -16, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!43 &912116659
@@ -21586,7 +21586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 1224045160}
-  secondsBeforeSpeechFades: 0
+  secondsBeforeSpeechFades: 2
   speechText: Testing Testing I'm just suggesting.
 --- !u!65 &1597492184
 BoxCollider:
@@ -24845,7 +24845,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000022660688, y: 0.000014238339}
+  m_AnchoredPosition: {x: -0.000022660688, y: -0.000012740397}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1997020087
