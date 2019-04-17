@@ -3180,6 +3180,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!1 &237837609 stripped
@@ -12314,7 +12318,7 @@ MonoBehaviour:
     - Was Dad''s favorite flower... I took it from Mom''s vase.
 
     - William Calder'
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 6574af403fb5f6b4bb49d14cb45825d7, type: 3}
 --- !u!1001 &950611409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22304,7 +22308,7 @@ MonoBehaviour:
   objectName: Toy Ship
   description: "An extremely well made model spaceship. \n(This looks exactly like
     the ship I crashed in, perhaps it's a common model?)"
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 62a4f862dafe24a48a34164f624b0944, type: 3}
 --- !u!82 &1709203056
 AudioSource:
   m_ObjectHideFlags: 0
@@ -24740,7 +24744,7 @@ MonoBehaviour:
   displayText: Pick up Flower
   objectName: Frosting Veronica
   description: "A light blue flower that emits a sharp chill. \n-Will's favorite."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 29bcffd26d0bc094eb18d96c703aa36d, type: 3}
 --- !u!1 &1983316256
 GameObject:
   m_ObjectHideFlags: 0
@@ -26372,6 +26376,12 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 530513c3feb907744b6655733ab7358b, type: 3}
+    - target: {fileID: 3590605291378580279, guid: 16913c98f2ee43e4fb0526d90a359d3c,
+        type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 4a4edd26dd4ce8349920bf542c42b043,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16913c98f2ee43e4fb0526d90a359d3c, type: 3}
 --- !u!114 &3590605291378580279 stripped
@@ -26661,7 +26671,7 @@ MonoBehaviour:
   objectName: Pumba Berry
   description: "A roundish, spiky fruit whose juice emits a bright glow. \n- Chewy
     and tart, goes surprisingly well with coffee. "
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 8319954d8bd96974788fbae4e5c884b1, type: 3}
 --- !u!135 &4447803360607838972
 SphereCollider:
   m_ObjectHideFlags: 0
