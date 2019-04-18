@@ -23,6 +23,9 @@ public class Door : InteractiveObjects
     [Tooltip("Play this audio clip when the player activates an unlocked door.")]
     [SerializeField]
     private AudioClip openAudioClip;
+    [Tooltip("If true, door will automatically open once player enters collider.")]
+    [SerializeField]
+    private bool autoOpen = false;
 
     public override string DisplayText
     {
@@ -101,9 +104,12 @@ public class Door : InteractiveObjects
 
     private void OnTriggerEnter(Collider other)
     {
-        audioSource.clip = openAudioClip;
-        animator.SetBool(shouldOpenAnimParameter, true);
-        displayText = string.Empty;
-        isOpen = true;
+        if (autoOpen)
+        {
+            audioSource.Play();
+            animator.SetBool(shouldOpenAnimParameter, true);
+            displayText = string.Empty;
+            isOpen = true;
+        }
     }
 }

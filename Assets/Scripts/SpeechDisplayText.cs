@@ -25,8 +25,7 @@ public class SpeechDisplayText : MonoBehaviour
     {
         textMeshPro.SetText(triggerText);
         textMeshPro.alpha = 1;
-        //StartCoroutine(SpeechFadeOut());
-        FadeOut();
+        StartCoroutine(SpeechFadeOut());
     }
 
     private void FadeOut()
