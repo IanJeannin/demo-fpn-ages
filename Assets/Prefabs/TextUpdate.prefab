@@ -308,8 +308,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 0}
-  secondsBeforeSpeechFades: 0
-  speechText: Testing Testing I'm just suggesting.
+  secondsBeforeSpeechFades: 2
+  speechText: Speech goes here
 --- !u!65 &1218632568290529892
 BoxCollider:
   m_ObjectHideFlags: 0
