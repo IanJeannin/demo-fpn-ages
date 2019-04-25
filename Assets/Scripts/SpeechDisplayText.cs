@@ -13,7 +13,7 @@ public class SpeechDisplayText : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI textMeshPro;
     [SerializeField]
-    private int secondsBeforeSpeechFades;
+    private int secondsBeforeSpeechFades=2;
 
     private bool startFading = false;
     
