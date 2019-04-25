@@ -106,10 +106,13 @@ public class Door : InteractiveObjects
     {
         if (autoOpen)
         {
-            audioSource.Play();
-            animator.SetBool(shouldOpenAnimParameter, true);
-            displayText = string.Empty;
-            isOpen = true;
+            if (!isOpen)
+            {
+                audioSource.Play();
+                animator.SetBool(shouldOpenAnimParameter, true);
+                displayText = string.Empty;
+                isOpen = true;
+            }
         }
     }
 }
