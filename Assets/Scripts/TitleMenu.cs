@@ -33,4 +33,9 @@ public class TitleMenu : MonoBehaviour
         Debug.Log("Quit.");
         Application.Quit();
     }
+
+    public void LinkTo(string link)
+    {
+        Application.OpenURL(link);
+    }
 }
