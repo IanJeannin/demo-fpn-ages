@@ -19,15 +19,19 @@ public class SpeechDisplayText : MonoBehaviour
     
     private void Start()
     {
+        //Ensure no speech is displayed on start of game. 
         textMeshPro.alpha = 0;
     }
     protected void UpdateText(string triggerText)
     {
-        textMeshPro.SetText(triggerText);
-        textMeshPro.alpha = 1;
+        textMeshPro.SetText(triggerText); //Set UI text to the text of the trigger. 
+        textMeshPro.alpha = 1; //Make text appear. 
         StartCoroutine(SpeechFadeOut());
     }
 
+    /// <summary>
+    /// Method called after coroutine ends, fades out text for as long as the text's alpha is not 0. 
+    /// </summary>
     private void FadeOut()
     {
         if (textMeshPro.alpha > 0)
@@ -44,6 +48,7 @@ public class SpeechDisplayText : MonoBehaviour
 
     private IEnumerator SpeechFadeOut()
     {
+        startFading = false; //Ensures speech doesn't begin fading immediately if two triggers are triggered in quick succession. 
         yield return new WaitForSeconds(secondsBeforeSpeechFades);
         startFading = true;
     }
