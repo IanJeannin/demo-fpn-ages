@@ -10,8 +10,10 @@ using TMPro;
 /// </summary>
 public class SpeechDisplayText : MonoBehaviour
 {
+    [Tooltip("The TextMeshPro text component that needs to be changed.")]
     [SerializeField]
     private TextMeshProUGUI textMeshPro;
+    [Tooltip("How long before the speech text will begin to fade out.")]
     [SerializeField]
     private int secondsBeforeSpeechFades=2;
 

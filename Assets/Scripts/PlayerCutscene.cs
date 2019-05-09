@@ -41,5 +41,4 @@ public class PlayerCutscene : MonoBehaviour
         yield return new WaitForSeconds(secondsTillGameEnd);
         SceneManager.LoadScene("DemoTitleScreen");
     }
-
 }
