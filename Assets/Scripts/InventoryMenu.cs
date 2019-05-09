@@ -6,6 +6,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class InventoryMenu : MonoBehaviour
 {
+    #region SerializeFields
     [SerializeField]
     private GameObject inventoryMenuItemTogglePrefab;
     [Tooltip("Content of the scrollview for the list of inventory items.")]
@@ -17,6 +18,7 @@ public class InventoryMenu : MonoBehaviour
     [Tooltip("Place in the UI for displaying info about the selected inventory item.")]
     [SerializeField]
     private Text descriptionAreaText;
+    #endregion
 
     private static InventoryMenu instance;
     private CanvasGroup canvasGroup;

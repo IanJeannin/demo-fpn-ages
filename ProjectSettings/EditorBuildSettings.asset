@@ -11,10 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DemoTitleScreen.unity
     guid: b6416d5826551bc478e8701f006d0d01
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/InteractiveObjectsTutorials.unity
     guid: c44a0d5692e5e724fb9c13ba3c192dfb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Milestone3.unity
     guid: 16ca8a1faa067494997f8489a1745710
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: 2fa7a4c74d767ed43829233c15c205c5
   m_configObjects: {}

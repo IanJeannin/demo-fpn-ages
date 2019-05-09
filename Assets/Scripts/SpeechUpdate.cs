@@ -21,8 +21,13 @@ public class SpeechUpdate : SpeechDisplayText
     {
         if(!hasBeenActivated)
         {
-            UpdateText(speechText);
+            UpdateSpeechText();
             hasBeenActivated = true;
         }
+    }
+
+    public void UpdateSpeechText()
+    {
+        UpdateText(speechText);
     }
 }
