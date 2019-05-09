@@ -12,10 +12,18 @@ public class TitleMenu : MonoBehaviour
     private GameObject creditsMenuPanel;
     [SerializeField]
     private GameObject titleMenuPanel;
+    [Tooltip("Particle effect to play after clicking the start button.")]
+    [SerializeField]
+    private GameObject lightningExplosion;
 
     public void LoadGameScene()
     {
         SceneManager.LoadScene(gameSceneName);
+    }
+
+    public void StartExplosion()
+    {
+        lightningExplosion.SetActive(true);
     }
 
     public void ShowTitle()
