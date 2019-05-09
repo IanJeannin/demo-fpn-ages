@@ -39,6 +39,6 @@ public class PlayerCutscene : MonoBehaviour
     private IEnumerator EndGame()
     {
         yield return new WaitForSeconds(secondsTillGameEnd);
-        SceneManager.LoadScene("DemoTitleScreen");
+        Application.Quit();
     }
 }
