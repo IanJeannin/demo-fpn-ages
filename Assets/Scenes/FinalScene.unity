@@ -17861,9 +17861,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d655965db8066dd4ab2e72e4c17941cf, type: 3}
   - {fileID: 8300000, guid: ffb24409c5c8e1d479998ba4c382e677, type: 3}
   - {fileID: 8300000, guid: b2aa3992f39d83945bc0a1df88e14690, type: 3}
-  - {fileID: 8300000, guid: 863ad7f426a8a7f42aacb5e7ed7caa71, type: 3}
   minTimeBeforeThunder: 15
-  maxTimeBeforeThunder: 60
+  maxTimeBeforeThunder: 40
 --- !u!82 &546182493
 AudioSource:
   m_ObjectHideFlags: 0
