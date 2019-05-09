@@ -32323,7 +32323,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -35412,7 +35412,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -54075,7 +54075,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -55426,7 +55426,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-182950
+  m_Name: pb_Mesh179752
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -62098,7 +62098,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000022660688, y: -0.000019438252}
+  m_AnchoredPosition: {x: -0.000022660688, y: 0.000011079326}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1997020087
@@ -64442,7 +64442,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -67478,7 +67478,7 @@ PrefabInstance:
     - target: {fileID: 7256100683597060752, guid: 16913c98f2ee43e4fb0526d90a359d3c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.739376
+      value: -3.614376
       objectReference: {fileID: 0}
     - target: {fileID: 7256100683597060752, guid: 16913c98f2ee43e4fb0526d90a359d3c,
         type: 3}
@@ -67488,7 +67488,7 @@ PrefabInstance:
     - target: {fileID: 7256100683597060752, guid: 16913c98f2ee43e4fb0526d90a359d3c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.57180786
+      value: 0.63430786
       objectReference: {fileID: 0}
     - target: {fileID: 7256100683597060752, guid: 16913c98f2ee43e4fb0526d90a359d3c,
         type: 3}
@@ -69322,7 +69322,7 @@ PrefabInstance:
     - target: {fileID: 1218632568290529899, guid: d6f09cfdf01edf34fb5972d5b743d4ed,
         type: 3}
       propertyPath: speechText
-      value: What... Where am I? Ugh, what happened?
+      value: What... Where am I? Why can't I remember anything...
       objectReference: {fileID: 0}
     - target: {fileID: 1218632568290529899, guid: d6f09cfdf01edf34fb5972d5b743d4ed,
         type: 3}
