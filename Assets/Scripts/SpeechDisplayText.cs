@@ -26,6 +26,7 @@ public class SpeechDisplayText : MonoBehaviour
     }
     protected void UpdateText(string triggerText)
     {
+        startFading = false; //Ensures speech doesn't begin fading immediately if two triggers are triggered in quick succession.
         textMeshPro.SetText(triggerText); //Set UI text to the text of the trigger. 
         textMeshPro.alpha = 1; //Make text appear. 
         StartCoroutine(SpeechFadeOut());
@@ -50,16 +51,16 @@ public class SpeechDisplayText : MonoBehaviour
 
     private IEnumerator SpeechFadeOut()
     {
-        startFading = false; //Ensures speech doesn't begin fading immediately if two triggers are triggered in quick succession. 
         yield return new WaitForSeconds(secondsBeforeSpeechFades);
         startFading = true;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if(startFading==true)
         {
             FadeOut();
         }
+        Debug.Log(startFading);
     }
 }
