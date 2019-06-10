@@ -32125,6 +32125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   postProcessVolume: {fileID: 938208861}
+  secondsBeforeBlurFades: 3
 --- !u!1 &942825235
 GameObject:
   m_ObjectHideFlags: 0
@@ -53527,7 +53528,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1512758386}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.9999998
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
